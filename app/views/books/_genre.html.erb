@@ -1,0 +1,6 @@
+<li><label class="tree-toggler nav-header"><%= genre.name %></label>
+  <ul class="nav nav-list tree">
+    <!-- <li><a href="#">Link</a></li> -->
+    <%= render :partial => "author", :collection => genre.authors %>
+  </ul>
+</li>
