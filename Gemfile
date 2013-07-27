@@ -7,6 +7,8 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3'
 gem 'kaminari'
+gem 'activeresource', :require => 'active_resource'
+gem 'google_custom_search_api'
 
 
 # Gems used only for assets and not required
